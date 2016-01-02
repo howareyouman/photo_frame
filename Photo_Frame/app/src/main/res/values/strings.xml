@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Photo_Frame</string>
+    <string name="example_auth_message">Start browser to authorize?</string>
+    <string name="example_auth_positive_button">OK</string>
+    <string name="example_auth_title">Auth</string>
+    <string name="example_auth_negative_button">Exit</string>
+</resources>
