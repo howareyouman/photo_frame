@@ -23,16 +23,9 @@ import com.yandex.disk.rest.Credentials;
 import com.yandex.disk.rest.exceptions.http.HttpCodeException;
 import com.yandex.disk.rest.exceptions.http.UnauthorizedException;
 
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import retrofit.Callback;
-import retrofit.RetrofitError;
-import retrofit.client.Response;
-import retrofit.mime.TypedByteArray;
 
 /**
  * Created by Арсений on 1/6/2016.
@@ -127,6 +120,8 @@ public class MyListFragment extends ListFragment implements LoaderManager.Loader
 
         for(String i:url_map.keySet()){
             String path = url_map.get(i);
+            //Not working!!!
+            /*
             retrofitClient.sharedInstance().getUrlOfFile(path, new Callback<Response>(){
                 @Override
                 public void success(Response response, Response response2) {
@@ -143,6 +138,7 @@ public class MyListFragment extends ListFragment implements LoaderManager.Loader
 
                 }
             });
+            */
 
         }
     }
