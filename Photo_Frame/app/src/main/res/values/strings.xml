@@ -4,4 +4,6 @@
     <string name="example_auth_positive_button">OK</string>
     <string name="example_auth_title">Auth</string>
     <string name="example_auth_negative_button">Exit</string>
+    <string name="show_images">Show all images</string>
+    <string name="no_files">No files found</string>
 </resources>

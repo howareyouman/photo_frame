@@ -4,14 +4,17 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-
+    compile 'com.facebook.stetho:stetho:1.0.0'
+    compile 'com.facebook.stetho:stetho-okhttp:1.0.0'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.yandex.android:disk-restapi-sdk:1.0'
+
 }
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
+    useLibrary  'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "com.example.photo_frame"
